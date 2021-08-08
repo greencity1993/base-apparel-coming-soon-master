@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/desktop.css">
+  <link rel="stylesheet" href="styles/mobile.css">
+</head>
+<body>
+  <div class="flex">
+    <div class="flex__box header">
+      <img class="header__logo" src="images/logo.svg">
+    </div>
+    <div class="flex-box main">
+      <div class="main__content content">
+        <h1 class="content__text content__header highlighted">We're</h1>
+        <h1 class="content__text content__header">coming</h1>
+        <h1 class="content__text content__header">soon</h1>
+        <p class=" content__text content__paragrph">
+          Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <form class="content__form form" novalidate>
+          <input class="form__input" type="email" placeholder="Email Address">
+          <img  class="form__error-icon form__error-element hidden" src="images/icon-error.svg">
+          <input class="form__button" type="submit" value=">">
+          <div class="form__error-message form__error-element hidden">Pleace provide a valid email</div>
+        </form>
+      </div>
+    </div>
+    <div class="flex-box face">
+      <img src="images/hero-mobile.jpg" class="face__image">
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript" src="js/validation.js"></script>

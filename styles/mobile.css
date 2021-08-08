@@ -1,0 +1,52 @@
+@media(orientation: portrait){
+	html, body{
+		flex-wrap: initial;
+	}
+
+	.flex-box{
+		width: 100%;
+	}
+
+	.flex{
+	  	flex-wrap: initial;
+	  	height: initial;
+	  	background-size: 100%;
+	}
+
+	.header{
+		height: 15vh;
+	}
+
+	.main{
+		order: 1;
+		height: initial;
+	}
+
+	.face{
+		background-image: url(../images/hero-mobile.jpg);
+		background-size: 100%;
+		width: initial;
+		height: initial;
+	}
+
+	.header__logo{
+		width: 25vw;
+	}
+
+	.face__image{
+		width: 100%;
+		display: initial;
+	}
+
+	.content{
+		margin: 7%;
+		margin-top: 15%;
+	}
+
+	.content__text{
+		text-align: center;
+	}
+	.content__header{
+		font-size: 220%;
+	}
+}

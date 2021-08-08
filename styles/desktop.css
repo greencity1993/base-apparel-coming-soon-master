@@ -1,0 +1,156 @@
+html, body{
+	height: 100%;
+	margin: 0px;
+}
+
+.flex{
+	display: flex;
+  	flex-wrap: wrap;
+  	flex-direction: column;
+ 	height: 100%;
+	background-image: url(../images/bg-pattern-desktop.svg);
+ 	background-size: 60%;
+ 	background-repeat: no-repeat;
+}
+
+.content__header{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 64px;
+	letter-spacing: 0.3em;
+	margin: 0;
+	text-transform:uppercase;
+	color: hsl(0, 6%, 24%)
+}
+
+.content__header.highlighted{
+	font-weight: 200;
+	color: hsl(0, 36%, 70%);
+}
+
+.content__paragrph{
+	font-family: 'Josefin Sans', sans-serif;
+	color: hsl(0, 36%, 70%);
+	ont-weight: 400;
+	line-height: 1.5;
+}
+
+.header{
+	width: 60%;
+	height: 20%;
+    display: flex;
+	align-items: center;
+
+}
+
+.main{
+	width: 60%;
+	height: 80%;
+
+
+}
+
+.face{
+	width: 40%;
+	height: 100%;
+	background-image: url(../images/hero-desktop.jpg);
+	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+
+.face__image{
+	display: none;
+	visibility:hidden;
+}
+
+
+.header__logo{
+	margin-left: 10%;
+}
+
+.content{
+	margin: 5%;
+    margin-right: 35%;
+    margin-left: 10%;
+   
+}
+
+.form__input{
+	outline: none;
+	width: 55%;
+	height: 50px;
+	border-radius: 25px 0 0 25px;
+	border-color: hsl(0, 36%, 70%);
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+    padding-left: 25px;
+    padding-right: 25%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: hsl(0, 36%, 70%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: hsl(0, 36%, 70%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.form__error-icon{
+	position: absolute;
+	right: 30%;
+	margin-top: 15px;
+}
+
+.form__button{
+	color: white;
+	height: 54px;
+	border-radius: 25px;
+	width: 25%;
+	border: 0px;
+	background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	font-family: 'Josefin Sans', sans-serif;
+	position: absolute;
+  	right: 0;
+
+}
+
+.form__button:hover{
+	background-image: initial;
+	background-color: hsl(0, 75%, 91%)
+
+}
+
+.content__form{
+	position: relative;
+	margin-top: 15%;
+}
+
+.form__error-message{
+	font-family: 'Josefin Sans', sans-serif;
+	color: hsl(0, 93%, 68%);
+	margin-top: 3%;
+	margin-left: 25px;
+    margin-right: 25%;
+    font-size: 12px;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+
+
+
+
+
+
